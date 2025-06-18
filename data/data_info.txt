@@ -3,3 +3,6 @@ to protect the cardholders' identities. The primary objective of this dataset is
 potentially fraudulent transactions.
 
 Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+
+It should be noted that the csv from the link above was broken into 4 separate csv files in src/data/make_dataset.py as GitHub maxes out singular files at 100 MB,
+the resulting 4 csv files in data/raw can be imported into 4 separate dataframes and combined for analyisis and model creation.
