@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 
+""" Script to download/generate raw data """
+
 # Path to the input CSV file
 input_file = 'data/raw/creditcard.csv'
 output_dir = 'data/raw'
